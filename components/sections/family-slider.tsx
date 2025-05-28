@@ -15,6 +15,8 @@ export default function FamilySlider({ playfair }) {
     { name: "Di & Jiju", relation: "Cousin Thodi Khatti or Thodi Mitti", image: "/preeti.jpeg?height=200&width=200" },
     { name: "Muskan", relation: "Cousin ", image: "/muski.jpg?height=200&width=200" },
     { name: "Maa ❣❣ ", relation: "My First Love ♥", image: "/maa.jpg?height=200&width=200" },
+    { name: "Papa Ji ❣❣ ", relation: "My Hero ♥", image: "/paa.jpg?height=200&width=200" },
+
     { name: "Bhaiya & Bhabhi", relation: "Cousin ", image: "/Bhaiya.jpg?height=200&width=200" },
     { name: "Amma", relation: "Grand Mother of the Bride", image: "/Amma.jpg?height=200&width=200" },
     { name: "Nani Ma", relation: "Supper Mother🥰", image: "/naniMa.jpg?height=200&width=200" },
