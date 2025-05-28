@@ -73,7 +73,7 @@ export default function HeroSection({ weddingDate, countdown, playfair }) {
 
         {/* Animated heart */}
         <motion.div
-          className="absolute top-1/4 right-1/4"
+          className="absolute top-1/4 left-3/4"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.5, duration: 1 }}
@@ -82,7 +82,7 @@ export default function HeroSection({ weddingDate, countdown, playfair }) {
         </motion.div>
 
         <motion.div
-          className="absolute bottom-1/4 left-1/4"
+          className="absolute bottom-1/4 left-4/4"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.8, duration: 1 }}

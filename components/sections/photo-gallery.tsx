@@ -75,6 +75,7 @@ export default function PhotoGallery({ playfair }) {
                   alt={`Couple photo ${currentPhotoIndex + 1}`}
                   fill
                   className="object-cover"
+                  style={{objectFit:"contain"}}
                 />
               </motion.div>
             </AnimatePresence>
