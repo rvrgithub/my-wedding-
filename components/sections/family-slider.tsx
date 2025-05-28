@@ -12,21 +12,21 @@ export default function FamilySlider({ playfair }) {
 
   // Family members array
   const familyMembers = [
-    { name: "Preeti", relation: "Cousin Thodi Khatti or Thodi Mitti", image: "/preetiJjiu.jpg?height=200&width=200" },
-    { name: "Maa ❣❣ ", relation: "My First Love", image: "/maa.jpg?height=200&width=200" },
-    { name: "Bhaiya & Bhabhi ", relation: "Father of the Bride", image: "/Bhaiya.jpg?height=200&width=200" },
+    { name: "Di & Jiju", relation: "Cousin Thodi Khatti or Thodi Mitti", image: "/preeti.jpeg?height=200&width=200" },
+    { name: "Muskan", relation: "Cousin ", image: "/muski.jpg?height=200&width=200" },
+    { name: "Maa ❣❣ ", relation: "My First Love ♥", image: "/maa.jpg?height=200&width=200" },
+    { name: "Bhaiya & Bhabhi", relation: "Cousin ", image: "/Bhaiya.jpg?height=200&width=200" },
     { name: "Amma", relation: "Grand Mother of the Bride", image: "/Amma.jpg?height=200&width=200" },
-    { name: "Nani Ma", relation: "Nani", image: "/naniMa.jpg?height=200&width=200" },
-    { name: "Hari", relation: "Hari Bhai", image: "/hari-2.jpeg?height=200&width=200" },
-    { name: "Dida ", relation: "Cousin Sisters", image: "/didaJiju.jpeg?height=200&width=200" },
-    { name: "Soniya", relation: "Sister", image: "/soni.jpg?height=200&width=200" },
-    { name: "Tulsi", relation: "My Jaan", image: "/divi.jpg?height=200&width=200" },
-    { name: "Bua & Fufa ji ", relation: "Bua Ji❣❣", image: "/bua-2.jpeg?height=200&width=200" },
-    { name: "Chacha ji & chachi ji ", relation: "❣❣", image: "/chachaji.jpg?height=200&width=200" },
-    { name: "Raghav ", relation: "❣❣", image: "/raghav.jpg?height=200&width=200" },
-    { name: "Bacha Party ", relation: "❣❣", image: "/bache.jpg?height=200&width=200" },
-    { name: "pooja Di & Nanu ", relation: "❣❣", image: "/nanupooja.jpg?height=200&width=200" },
-
+    { name: "Nani Ma", relation: "Supper Mother🥰", image: "/naniMa.jpg?height=200&width=200" },
+    { name: "Hari Om", relation: "Bhai Kum Kadus Jyada😎", image: "/hari-2.jpeg?height=200&width=200" },
+    { name: "Dida ", relation: "Cousin Chocolatey 😋", image: "/didaJiju.jpeg?height=200&width=200" },
+    { name: "Soniya", relation: "my soul", image: "/soni.jpg?height=200&width=200" },
+    { name: "Tulsi", relation: "My Heart baby", image: "/divi.jpg?height=200&width=200" },
+    { name: "Bua & Fufa ji ", relation: "So Sweet❣❣", image: "/bua-2.jpeg?height=200&width=200" },
+    { name: "Chacha ji & chachi ji ", relation: "Ek Tha Tiger🐯", image: "/chachaji.jpg?height=200&width=200" },
+    { name: "Raghav", relation: "❣❣", image: "/raghav.jpg?height=200&width=200" },
+    { name: "Bacha Party ", relation: "Chillar Party❣❣", image: "/bache.jpg?height=200&width=200" },
+    { name: "pooja Di & Nanu ", relation: "Socft and Sweet  Cousin❣❣", image: "/nanupooja.jpg?height=200&width=200" },
   ]
 
   // Family slider controls
