@@ -13,10 +13,10 @@ export default function PhotoGallery({ playfair }) {
   // Photos array
   const photos = [
     "/humtum.jpg?height=200&width=200",
-    "/vishal.jpeg?height=600&width=800",
-    "/radhika.svg?height=600&width=800",
-    "/placeholder.svg?height=600&width=800",
-    "/placeholder.svg?height=600&width=800",
+    // "/vishal.jpeg?height=600&width=800",
+    // "/radhika.svg?height=600&width=800",
+    // "/placeholder.svg?height=600&width=800",
+    // "/placeholder.svg?height=600&width=800",
   ]
 
   // Photo slider controls
