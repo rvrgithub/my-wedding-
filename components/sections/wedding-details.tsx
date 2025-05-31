@@ -49,7 +49,7 @@ export default function WeddingDetails({ weddingDate, playfair }) {
               >
                 <Calendar className="w-8 h-8 text-rose-600 mr-4" />
               </motion.div>
-              <h3 className={cn("text-2xl font-bold text-rose-700", playfair.className)}>Haldi & Dev Poujan</h3>
+              <h3 className={cn("text-2xl font-bold text-rose-700", playfair.className)}>Haldi & Devi Poojan</h3>
             </motion.div>
 
             <ul className="space-y-4">
@@ -66,7 +66,7 @@ export default function WeddingDetails({ weddingDate, playfair }) {
                 </div>
               </motion.li>
 
-             
+
             </ul>
           </motion.div>
 
@@ -98,12 +98,12 @@ export default function WeddingDetails({ weddingDate, playfair }) {
                   <p className="text-gray-600">
 
                     Saturday, June 7, 2025
-                    at 5:00 PM
+                    at 2:00 PM
                   </p>
                 </div>
               </motion.li>
 
-             
+
             </ul>
           </motion.div>
         </div>
@@ -141,7 +141,7 @@ export default function WeddingDetails({ weddingDate, playfair }) {
                 </div>
               </motion.li>
 
-             
+
             </ul>
           </motion.div>
 
@@ -177,7 +177,7 @@ export default function WeddingDetails({ weddingDate, playfair }) {
                 </div>
               </motion.li>
 
-             
+
             </ul>
           </motion.div>
         </div>
