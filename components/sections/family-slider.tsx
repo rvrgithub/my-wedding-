@@ -19,16 +19,16 @@ export default function FamilySlider({ playfair }) {
 
     { name: "Bhaiya & Bhabhi", relation: "Cousin ", image: "/Bhaiya.jpg?height=200&width=200" },
     { name: "Amma", relation: "Grand Mother of the Bride", image: "/Amma.jpg?height=200&width=200" },
-    { name: "Nani Ma", relation: "Supper Mother🥰", image: "/naniMa.jpg?height=200&width=200" },
+    { name: "Nani Ma", relation: "The Queen of Warm Hugs & Wisdom 👑🥰", image: "/naniMa.jpg?height=200&width=200" },
     { name: "Hari Om", relation: "Bhai Kum Kadus Jyada😎", image: "/hari-2.jpeg?height=200&width=200" },
     { name: "Dida ", relation: "Cousin Chocolatey 😋", image: "/didaJiju.jpeg?height=200&width=200" },
-    { name: "Soniya", relation: "my soul", image: "/soni.jpg?height=200&width=200" },
+    { name: "Soniya", relation: "My Soul Sister, Forever & Always 🫶", image: "/soni.jpg?height=200&width=200" },
     { name: "Tulsi", relation: "My Heart baby", image: "/divi.jpg?height=200&width=200" },
-    { name: "Bua & Fufa ji ", relation: "So Sweet❣❣", image: "/bua-2.jpeg?height=200&width=200" },
+    { name: "Bua & Fufa ji ", relation: "Our Sweetest Pillars of Love ❣❣", image: "/bua-2.jpeg?height=200&width=200" },
     { name: "Chacha ji & chachi ji ", relation: "Ek Tha Tiger🐯", image: "/chachaji.jpg?height=200&width=200" },
-    { name: "Raghav", relation: "❣❣", image: "/raghav.jpg?height=200&width=200" },
-    { name: "Bacha Party ", relation: "Chillar Party❣❣", image: "/bache.jpg?height=200&width=200" },
-    { name: "pooja Di & Nanu ", relation: "Socft and Sweet  Cousin❣❣", image: "/nanupooja.jpg?height=200&width=200" },
+    { name: "Raghav", relation: "❣Bundle of Joy & Pure Innocence 💗 Cousin❣❣", image: "/raghav.jpg?height=200&width=200" },
+    { name: "Bacha Party ", relation: "Little Sparks of Joy – Our Chillar Party 🎉❣", image: "/bache.jpg?height=200&width=200" },
+    { name: "pooja Di & Nanu ", relation: "Soft Souls, Pure Bonds 💕  Cousin❣❣", image: "/nanupooja.jpg?height=200&width=200" },
   ]
 
   // Family slider controls
