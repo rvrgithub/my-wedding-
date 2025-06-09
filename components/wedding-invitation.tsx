@@ -21,24 +21,34 @@ export default function WeddingInvitation() {
   const [minutes, setMinutes] = useState(0)
   const [seconds, setSeconds] = useState(0)
 
-  // Wedding date - set to 3 months from now
-  const weddingDate = new Date("June 09, 2025 03:24:00")
-  weddingDate.setMonth(weddingDate.getMonth())
+const weddingDate = new Date("June 09, 2025 19:00:00"); // 7:00 PM
 
-  // Countdown timer
-  useEffect(() => {
-    const interval = setInterval(() => {
-      const now = new Date().getTime()
-      const distance = weddingDate.getTime() - now
+useEffect(() => {
+  const interval = setInterval(() => {
+    const now = new Date().getTime();
+    const distance = weddingDate.getTime() - now;
 
-      setDays(Math.floor(distance / (1000 * 60 * 60 * 24)))
-      setHours(Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)))
-      setMinutes(Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)))
-      setSeconds(Math.floor((distance % (1000 * 60)) / 1000))
-    }, 1000)
+    if (distance <= 0) {
+      setDays("00");
+      setHours("00");
+      setMinutes("00");
+      setSeconds("00");
+    } else {
+      const d = Math.floor(distance / (1000 * 60 * 60 * 24));
+      const h = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const m = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      const s = Math.floor((distance % (1000 * 60)) / 1000);
 
-    return () => clearInterval(interval)
-  }, [weddingDate])
+      setDays(String(d).padStart(2, "0"));
+      setHours(String(h).padStart(2, "0"));
+      setMinutes(String(m).padStart(2, "0"));
+      setSeconds(String(s).padStart(2, "0"));
+    }
+  }, 1000);
+
+  return () => clearInterval(interval);
+}, []);
+
 
   return (
     <div className="relative min-h-screen overflow-hidden bg-rose-50">
